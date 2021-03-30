@@ -10,7 +10,8 @@
 <body>
     <div id="app">
         <h1>{{title}}</h1>
-        <h2>{{ cantidad >= 1000 ? 'Es mayor' : 'Es menor' }}</h2>
+        <h2>Mi saldo es: ${{ cantidad }}</h2>
+        <a v-bind:href="enlace">Ir al enlace</a>
     </div>
     <script src="main.js"></script>
     <script>

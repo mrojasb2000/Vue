@@ -1,8 +1,9 @@
 const app = Vue.createApp({
     data(){
         return {
-            title: "Este es un titulo de Vue.js",
-            cantidad: 100
+            title: "Mi banco con Vue.js",
+            cantidad: 500,
+            enlace: 'https://youtube.com'
         }
     }
 })
